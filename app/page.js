@@ -16,7 +16,7 @@ export default function Page(){
           <div className="grid md:grid-cols-3 gap-4">
             <div className="card hover-raise"><div className="kicker">Mandate Focus</div><h3>Exclusive Sales</h3><p className="text-black/70 mt-1">Dedicated, high-performance execution.</p></div>
             <div className="card hover-raise"><div className="kicker">Branding</div><h3>Marketing Engine</h3><p className="text-black/70 mt-1">Billboards, influencer, society campaigns, radio & digital.</p></div>
-            <div className="card hover-raise"><div className="kicker">Lifecycle</div><h3>Transaction Mgmt</h3><p className="text-black/70 mt-1">From listing to closing, seamless experience.</p></div>
+            <div className="card hover-raise"><div className="kicker">Lifecycle</div><h3>Transaction Management</h3><p className="text-black/70 mt-1">From listing to closing, seamless experience.</p></div>
           </div>
         </div>
         <div className="rounded-2xl overflow-hidden shadow-card border border-black/10 hover-zoom">
