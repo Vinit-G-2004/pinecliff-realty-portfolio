@@ -170,10 +170,10 @@ export default function Page(){
        
         <div className="mt-6">
           <HScroll images={[
-            "/sales/1.jpg",
-            "/sales/2.jpg",
+            "/sales/1.JPG",
+            "/sales/2.JPG",
             "/sales/3.jpeg",
-            "/sales/4.jpg",
+            "/sales/4.JPG",
             "/sales/5.jpeg",
       
           ]} />
