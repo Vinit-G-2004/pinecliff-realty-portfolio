@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{ --gold:#A6884A; --gold2:#B08A47; --charcoal:#2D2D2D; }
+html,body{@apply bg-white text-charcoal antialiased scroll-smooth;}
+.container{@apply max-w-6xl mx-auto px-5;}
+.kicker{@apply text-[11px] tracking-[0.2em] uppercase font-semibold text-gold;}
+.card{@apply rounded-2xl border border-black/10 bg-white p-6 shadow-card;}
+.sep{@apply h-px my-10 bg-gradient-to-r from-transparent via-gold to-transparent opacity-50;}
+.feature-grid{@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;}
+h1{@apply text-4xl md:text-5xl font-bold;}
+h2{@apply text-3xl md:text-4xl font-bold;}
+h3{@apply text-xl font-semibold;}
+.lead{@apply text-lg text-black/70;}
+.navbar{@apply sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-black/5;}
+.section{@apply py-14 md:py-20;}
+.hover-raise{transition:transform .2s ease, box-shadow .2s ease}
+.hover-raise:hover{transform:translateY(-4px); box-shadow:0 16px 40px rgba(0,0,0,.12)}
+.hover-zoom{overflow:hidden}
+.hover-zoom img{transition:transform .4s ease}
+.hover-zoom:hover img{transform:scale(1.03)}
+body {
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

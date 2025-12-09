@@ -1,0 +1,9 @@
+﻿node_modules/
+.next/
+.vercel/
+.vscode/
+.DS_Store
+*.log
+.env*
+*.zip
+public/uploads
